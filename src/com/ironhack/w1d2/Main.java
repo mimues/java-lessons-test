@@ -41,6 +41,22 @@ public class Main {
             System.out.println(names[i++]);
         } while(i < 0);
 
+        // Class Exercise: Find all even numbers until 100
+        int[] evenNumbers = new int[51];
+        int j = 0;
+
+        for (int i1 = 0; i1 <= 100; i1++) {
+            if (i1 % 2 == 0) {
+                evenNumbers[j] = i1;
+                j++;
+            }
+        }
+
+        System.out.println();
+        System.out.println("Class Exercise: Find all even numbers until 100");
+        System.out.println(Arrays.toString(evenNumbers));
+
+
         // Exercise 1
         int[] inputArray = {5, 4, 3, 2, 1};
         int[] outputArray = multiplyByNext(inputArray);
