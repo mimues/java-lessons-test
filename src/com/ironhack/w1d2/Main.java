@@ -1,3 +1,5 @@
+package com.ironhack.w1d2;
+
 import java.util.Arrays;
 import java.util.Collections;
 
